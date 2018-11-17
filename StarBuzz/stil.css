@@ -3,10 +3,17 @@ background-color: tan;
 font-family: sans-serif;
 margin-left: 10%;
 }
-h2, h3 {
-  font-family: serif;
+h2 {
   color: white;
 }
-.denumire {
-  color: grey;
+.produs{
+  border-width: medium;
+  border-style: solid;
+}
+.coffee {
+border-color: brown;
+}
+#ceai {
+  border-style: dotted;
+  border-color: pink;
 }
