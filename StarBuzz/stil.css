@@ -1,5 +1,5 @@
 body {
-background-color: rgb(196,137,187);
+background-color: tan;
 font-family: sans-serif;
 font-size: 12px;
 margin-left: 10%;
@@ -27,10 +27,53 @@ h2 {
   border-style: solid;
 }
 .coffee {
-border-color: purple;
+border-color: brown;
 }
 #ceai {
   border-style: dotted;
   border-color: pink;
+}
+#ticket{
+  position: fixed;
+  top: 300px;
+  right:100px;
+  width: 290px;
+  height: 155px;
+}
+.guatantee {
+  border-color: white;
+  border-width: 2px;
+  border-style: dotted;
+  background-color: #a7cece;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.6em;
+  padding:3px;
+  padding-left: 80px;
+  margin: 10px;
+  min-height: 80px;
+  max-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  float: right;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:link{
 
+}
+a:visited{
+color: #999999;
+}
+a:hover{
+text-decoration: underline;
+}
+.song{
+  font-style: italic;
+}
+.artist{
+font-weight: bold;
 }
