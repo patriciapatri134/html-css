@@ -1,0 +1,26 @@
+circle{
+  stroke: black;
+  stroke-width: 2px;
+  stroke-opacity: 1;
+}
+#pulse{
+  fill: white;
+  fill-opacity: 0;
+  stroke-opacity: 0;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+@keyframes pulse {
+  from {
+    stroke-opacity: 1;
+    stroke-width: 3px;
+    transform: scale(0.5);
+  }
+  to {
+    stroke-opacity: 0;
+    stroke-width: 0px;
+    transform: scale(2);
+  }
+}
