@@ -1,1 +1,2 @@
-admin@mail.com:12345
+admin@mail.com:123
+test@mail.com:12345
